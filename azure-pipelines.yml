@@ -22,11 +22,11 @@ stages:
             inputs:
               provider: 'azurerm'
               command: 'plan'
-              environmentServiceNameAzureRM: 'xyz'
+              environmentServiceNameAzureRM: 'infra_creation'
           - task: TerraformTask@5
             inputs:
               provider: 'azurerm'
               command: 'apply'
-              environmentServiceNameAzureRM: 'xyz'
+              environmentServiceNameAzureRM: 'infra_creation'
           
 

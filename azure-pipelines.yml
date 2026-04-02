@@ -1,6 +1,6 @@
 trigger: none
 
-pool: B17_AgentPool
+pool: infracreation
 
 stages:
   - stage: 
@@ -14,7 +14,11 @@ stages:
             inputs:
               provider: 'azurerm'
               command: 'init'
+<<<<<<< HEAD
               backendServiceArm: 'xyz'
+=======
+              backendServiceArm: 'infra_creation'
+>>>>>>> fc24498 (updated code)
               backendAzureRmStorageAccountName: 'testpipeline117'
               backendAzureRmContainerName: 'xyz'
               backendAzureRmKey: 'terraform.tfstate'

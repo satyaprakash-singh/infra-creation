@@ -15,7 +15,7 @@ stages:
               provider: 'azurerm'
               command: 'init'
               backendServiceArm: 'xyz'
-              backendAzureRmStorageAccountName: 'sanjaystg1'
+              backendAzureRmStorageAccountName: 'testpipeline117'
               backendAzureRmContainerName: 'xyz'
               backendAzureRmKey: 'terraform.tfstate'
           - task: TerraformTask@5

@@ -21,3 +21,8 @@ resource "azurerm_resource_group" "rgg" {
   name     = "manoj_rg"
   location = "eastus"
 }
+
+resource "azurerm_resource_group" "rg1" {
+  name     = "saroj_rg"
+  location = "eastus"
+}
